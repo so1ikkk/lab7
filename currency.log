@@ -1,0 +1,2 @@
+START get_currencies_file args=(['USD', 'EUR', 'GBP', 'AUD'],), kwargs={}
+END get_currencies_file result={'USD': 80.722, 'EUR': 94.512, 'GBP': 108.1271, 'AUD': 53.3492}

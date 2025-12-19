@@ -1,0 +1,22 @@
+INFO: START solve_quadratic args=(1, -3, 2), kwargs={}
+DEBUG: Discriminant = 1
+INFO: Two real roots computed
+INFO: END solve_quadratic result=(2.0, 1.0)
+INFO: START solve_quadratic args=(1, 1, 10), kwargs={}
+DEBUG: Discriminant = -39
+WARNING: Discriminant < 0: no real roots
+INFO: END solve_quadratic result=None
+INFO: START solve_quadratic args=('abc', 2, 3), kwargs={}
+ERROR: Invalid type for 'a': abc
+ERROR: ERROR in solve_quadratic: TypeError: Coefficient 'a' must be numeric
+INFO: START solve_quadratic args=(0, 0, 5), kwargs={}
+CRITICAL: Impossible equation: a = 0 and b = 0
+ERROR: ERROR in solve_quadratic: ValueError: Invalid quadratic equation
+DEBUG: Starting new HTTPS connection (1): invalid:443
+DEBUG: Starting new HTTPS connection (1): httpbin.org:443
+DEBUG: https://httpbin.org:443 "GET /html HTTP/1.1" 200 3741
+DEBUG: Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG: https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2311
+DEBUG: Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG: https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 2311
+DEBUG: Starting new HTTPS connection (1): invalid:443
